@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,html{
+    width: 1200px;
+    font-size: 20px;
+}
+header{
+    float: left;
+    height: 100px;
+    width: 1200px;
+}
+.top{
+    float: left;
+    width: 100px;
+    width: 1200px;
+}
+.logo{
+    float: left;
+    img{
+        height: 100px;
+        width: 200px;
+        object-fit: cover;
+    }
+}
+nav{
+    float: right;
+}
+.menu{
+    float: right;
+    width: 600px;
+    background-color: #EEEEEE;
+    font-family: 'Gowun Dodum', sans-serif;
+}
+.menu>li{
+    float: right;
+    width: 200px;
+}
+.imgslide{
+    float: left;
+    img{
+        width: 1200px;
+        height: 350px;
+        object-fit: contain;
+        background-color: burlywood;
+    }
+}
+.contents{
+    float: left;
+    width: 1200px;
+    height: 200px;
+    background-color: #FF0000;
+}
+.notice{
+    float: left;
+    width: 400px;
+    height: 200px;
+    background-color: #FFFFFF;
+}
+.gallery{
+    float: left;
+    width: 400px;
+    height: 200px;
+}
+.shorcut{
+    float: left;
+    width: 400px;
+    height: 200px;
+    background-color: #FFFFFF;
+}
+footer{
+    float: left;
+    width: 1200px;
+    height: 120px;
+    background-color: #EEEEEE;
+}
+.copy{
+    float: left;
+    width: 800px;
+    height: 120px;
+}
+.site{
+    float: right;
+    width: 400px;
+    height: 120px;
+    background-color: bisque;
+}
+.site>ul{
+   float: left;
+    width: 400px;
+}
+.site>ul>li{
+    float: left;
+    width: 400px;
+    height: 60px;
+}
